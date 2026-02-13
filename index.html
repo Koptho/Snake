@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ikkje trykk på knappen</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app" aria-live="polite">
+      <section id="gameScreen" class="screen">
+        <h1 class="title">Ikkje trykk på knappen</h1>
+        <button id="dangerButton" class="danger-button" type="button" aria-label="Ikkje trykk på knappen"></button>
+      </section>
+
+      <section id="gameOverScreen" class="screen game-over hidden">
+        <h2>Game Over</h2>
+        <p>Du trykte på knappen.</p>
+        <button id="restartButton" class="restart-button" type="button">Start på nytt</button>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
